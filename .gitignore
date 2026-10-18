@@ -1,0 +1,22 @@
+# 依赖（本项目零第三方依赖，这里只是防万一）
+node_modules/
+
+# 打包产物
+*.zip
+*.7z
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与临时文件
+*.log
+*.tmp
+.re-*

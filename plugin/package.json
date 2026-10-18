@@ -1,0 +1,23 @@
+{
+  "name": "dsh-ssh-explorer",
+  "version": "1.7.0",
+  "private": true,
+  "description": "VSCode-style SSH remote explorer for the DSH web client (sidebar panel + remote file tree + drag-and-drop transfer + selection & delete + create & rename + floating selection bar)",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "author": "小乐子"
+}
